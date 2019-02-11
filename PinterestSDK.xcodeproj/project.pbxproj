@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C924BDBE221123BB009599DF /* PDKImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDAB221123BA009599DF /* PDKImageInfo.h */; };
+		C924BDBE221123BB009599DF /* PDKImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDAB221123BA009599DF /* PDKImageInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C924BDBF221123BB009599DF /* PDKCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDAC221123BA009599DF /* PDKCategories.m */; };
 		C924BDC0221123BB009599DF /* PDKModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDAD221123BA009599DF /* PDKModelObject.m */; };
-		C924BDC1221123BB009599DF /* PDKClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDAE221123BA009599DF /* PDKClient.h */; };
-		C924BDC2221123BB009599DF /* PDKCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDAF221123BA009599DF /* PDKCategories.h */; };
+		C924BDC1221123BB009599DF /* PDKClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDAE221123BA009599DF /* PDKClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C924BDC2221123BB009599DF /* PDKCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDAF221123BA009599DF /* PDKCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C924BDC3221123BB009599DF /* PDKBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDB0221123BA009599DF /* PDKBoard.m */; };
 		C924BDC4221123BB009599DF /* PDKImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDB1221123BA009599DF /* PDKImageInfo.m */; };
 		C924BDC5221123BB009599DF /* PDKInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDB2221123BA009599DF /* PDKInterest.m */; };
 		C924BDC6221123BB009599DF /* PDKPin.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDB3221123BA009599DF /* PDKPin.m */; };
 		C924BDC7221123BB009599DF /* PDKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDB4221123BA009599DF /* PDKUser.m */; };
-		C924BDC8221123BB009599DF /* PDKModelObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDB5221123BA009599DF /* PDKModelObject.h */; };
-		C924BDC9221123BB009599DF /* PDKPin.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDB6221123BA009599DF /* PDKPin.h */; };
+		C924BDC8221123BB009599DF /* PDKModelObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDB5221123BA009599DF /* PDKModelObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C924BDC9221123BB009599DF /* PDKPin.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDB6221123BA009599DF /* PDKPin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C924BDCA221123BB009599DF /* PinterestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDB7221123BA009599DF /* PinterestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C924BDCB221123BB009599DF /* PDKResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDB8221123BA009599DF /* PDKResponseObject.m */; };
-		C924BDCC221123BB009599DF /* PDKUser.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDB9221123BB009599DF /* PDKUser.h */; };
-		C924BDCD221123BB009599DF /* PDKResponseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDBA221123BB009599DF /* PDKResponseObject.h */; };
-		C924BDCE221123BB009599DF /* PDKInterest.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDBB221123BB009599DF /* PDKInterest.h */; };
+		C924BDCC221123BB009599DF /* PDKUser.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDB9221123BB009599DF /* PDKUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C924BDCD221123BB009599DF /* PDKResponseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDBA221123BB009599DF /* PDKResponseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C924BDCE221123BB009599DF /* PDKInterest.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDBB221123BB009599DF /* PDKInterest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C924BDCF221123BB009599DF /* PDKClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDBC221123BB009599DF /* PDKClient.m */; };
-		C924BDD0221123BB009599DF /* PDKBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDBD221123BB009599DF /* PDKBoard.h */; };
+		C924BDD0221123BB009599DF /* PDKBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDBD221123BB009599DF /* PDKBoard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C94666E022111FF0004E9A01 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94666DE22111FF0004E9A01 /* AFNetworking.framework */; };
 		C94666E122111FF0004E9A01 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94666DF22111FF0004E9A01 /* SAMKeychain.framework */; };
 		C94666E322112033004E9A01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94666E222112033004E9A01 /* Foundation.framework */; };
