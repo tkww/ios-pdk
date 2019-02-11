@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C94666CA22111FB8004E9A01 /* PDKInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = C94666B722111FB6004E9A01 /* PDKInterest.m */; };
-		C94666CB22111FB8004E9A01 /* PDKUser.h in Headers */ = {isa = PBXBuildFile; fileRef = C94666B822111FB6004E9A01 /* PDKUser.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C94666CC22111FB8004E9A01 /* PDKModelObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C94666B922111FB7004E9A01 /* PDKModelObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C94666CD22111FB8004E9A01 /* PDKPin.m in Sources */ = {isa = PBXBuildFile; fileRef = C94666BA22111FB7004E9A01 /* PDKPin.m */; };
-		C94666CE22111FB8004E9A01 /* PDKImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C94666BB22111FB7004E9A01 /* PDKImageInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C94666CF22111FB8004E9A01 /* PDKModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C94666BC22111FB7004E9A01 /* PDKModelObject.m */; };
-		C94666D022111FB8004E9A01 /* PDKClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C94666BD22111FB7004E9A01 /* PDKClient.m */; };
-		C94666D122111FB8004E9A01 /* PDKResponseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C94666BE22111FB7004E9A01 /* PDKResponseObject.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C94666D222111FB8004E9A01 /* PDKBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = C94666BF22111FB7004E9A01 /* PDKBoard.m */; };
-		C94666D322111FB8004E9A01 /* PDKCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = C94666C022111FB7004E9A01 /* PDKCategories.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C94666D422111FB8004E9A01 /* PDKImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C94666C122111FB7004E9A01 /* PDKImageInfo.m */; };
-		C94666D522111FB8004E9A01 /* PDKResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C94666C222111FB7004E9A01 /* PDKResponseObject.m */; };
-		C94666D622111FB8004E9A01 /* PDKInterest.h in Headers */ = {isa = PBXBuildFile; fileRef = C94666C322111FB7004E9A01 /* PDKInterest.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C94666D722111FB8004E9A01 /* PDKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C94666C422111FB7004E9A01 /* PDKUser.m */; };
-		C94666D822111FB8004E9A01 /* PDKCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = C94666C522111FB7004E9A01 /* PDKCategories.m */; };
-		C94666D922111FB8004E9A01 /* PDKPin.h in Headers */ = {isa = PBXBuildFile; fileRef = C94666C622111FB7004E9A01 /* PDKPin.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C94666DA22111FB8004E9A01 /* PDKClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C94666C722111FB7004E9A01 /* PDKClient.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C94666DB22111FB8004E9A01 /* PDKBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = C94666C822111FB7004E9A01 /* PDKBoard.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C94666DC22111FB8004E9A01 /* PinterestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C94666C922111FB7004E9A01 /* PinterestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C924BDBE221123BB009599DF /* PDKImageInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDAB221123BA009599DF /* PDKImageInfo.h */; };
+		C924BDBF221123BB009599DF /* PDKCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDAC221123BA009599DF /* PDKCategories.m */; };
+		C924BDC0221123BB009599DF /* PDKModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDAD221123BA009599DF /* PDKModelObject.m */; };
+		C924BDC1221123BB009599DF /* PDKClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDAE221123BA009599DF /* PDKClient.h */; };
+		C924BDC2221123BB009599DF /* PDKCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDAF221123BA009599DF /* PDKCategories.h */; };
+		C924BDC3221123BB009599DF /* PDKBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDB0221123BA009599DF /* PDKBoard.m */; };
+		C924BDC4221123BB009599DF /* PDKImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDB1221123BA009599DF /* PDKImageInfo.m */; };
+		C924BDC5221123BB009599DF /* PDKInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDB2221123BA009599DF /* PDKInterest.m */; };
+		C924BDC6221123BB009599DF /* PDKPin.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDB3221123BA009599DF /* PDKPin.m */; };
+		C924BDC7221123BB009599DF /* PDKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDB4221123BA009599DF /* PDKUser.m */; };
+		C924BDC8221123BB009599DF /* PDKModelObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDB5221123BA009599DF /* PDKModelObject.h */; };
+		C924BDC9221123BB009599DF /* PDKPin.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDB6221123BA009599DF /* PDKPin.h */; };
+		C924BDCA221123BB009599DF /* PinterestSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDB7221123BA009599DF /* PinterestSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C924BDCB221123BB009599DF /* PDKResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDB8221123BA009599DF /* PDKResponseObject.m */; };
+		C924BDCC221123BB009599DF /* PDKUser.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDB9221123BB009599DF /* PDKUser.h */; };
+		C924BDCD221123BB009599DF /* PDKResponseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDBA221123BB009599DF /* PDKResponseObject.h */; };
+		C924BDCE221123BB009599DF /* PDKInterest.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDBB221123BB009599DF /* PDKInterest.h */; };
+		C924BDCF221123BB009599DF /* PDKClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C924BDBC221123BB009599DF /* PDKClient.m */; };
+		C924BDD0221123BB009599DF /* PDKBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = C924BDBD221123BB009599DF /* PDKBoard.h */; };
 		C94666E022111FF0004E9A01 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94666DE22111FF0004E9A01 /* AFNetworking.framework */; };
 		C94666E122111FF0004E9A01 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94666DF22111FF0004E9A01 /* SAMKeychain.framework */; };
 		C94666E322112033004E9A01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94666E222112033004E9A01 /* Foundation.framework */; };
@@ -33,27 +33,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C924BDAB221123BA009599DF /* PDKImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKImageInfo.h; path = Pod/Classes/PDKImageInfo.h; sourceTree = SOURCE_ROOT; };
+		C924BDAC221123BA009599DF /* PDKCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKCategories.m; path = Pod/Classes/PDKCategories.m; sourceTree = SOURCE_ROOT; };
+		C924BDAD221123BA009599DF /* PDKModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKModelObject.m; path = Pod/Classes/PDKModelObject.m; sourceTree = SOURCE_ROOT; };
+		C924BDAE221123BA009599DF /* PDKClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKClient.h; path = Pod/Classes/PDKClient.h; sourceTree = SOURCE_ROOT; };
+		C924BDAF221123BA009599DF /* PDKCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKCategories.h; path = Pod/Classes/PDKCategories.h; sourceTree = SOURCE_ROOT; };
+		C924BDB0221123BA009599DF /* PDKBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKBoard.m; path = Pod/Classes/PDKBoard.m; sourceTree = SOURCE_ROOT; };
+		C924BDB1221123BA009599DF /* PDKImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKImageInfo.m; path = Pod/Classes/PDKImageInfo.m; sourceTree = SOURCE_ROOT; };
+		C924BDB2221123BA009599DF /* PDKInterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKInterest.m; path = Pod/Classes/PDKInterest.m; sourceTree = SOURCE_ROOT; };
+		C924BDB3221123BA009599DF /* PDKPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKPin.m; path = Pod/Classes/PDKPin.m; sourceTree = SOURCE_ROOT; };
+		C924BDB4221123BA009599DF /* PDKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKUser.m; path = Pod/Classes/PDKUser.m; sourceTree = SOURCE_ROOT; };
+		C924BDB5221123BA009599DF /* PDKModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKModelObject.h; path = Pod/Classes/PDKModelObject.h; sourceTree = SOURCE_ROOT; };
+		C924BDB6221123BA009599DF /* PDKPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKPin.h; path = Pod/Classes/PDKPin.h; sourceTree = SOURCE_ROOT; };
+		C924BDB7221123BA009599DF /* PinterestSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PinterestSDK.h; path = Pod/Classes/PinterestSDK.h; sourceTree = SOURCE_ROOT; };
+		C924BDB8221123BA009599DF /* PDKResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKResponseObject.m; path = Pod/Classes/PDKResponseObject.m; sourceTree = SOURCE_ROOT; };
+		C924BDB9221123BB009599DF /* PDKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKUser.h; path = Pod/Classes/PDKUser.h; sourceTree = SOURCE_ROOT; };
+		C924BDBA221123BB009599DF /* PDKResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKResponseObject.h; path = Pod/Classes/PDKResponseObject.h; sourceTree = SOURCE_ROOT; };
+		C924BDBB221123BB009599DF /* PDKInterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKInterest.h; path = Pod/Classes/PDKInterest.h; sourceTree = SOURCE_ROOT; };
+		C924BDBC221123BB009599DF /* PDKClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDKClient.m; path = Pod/Classes/PDKClient.m; sourceTree = SOURCE_ROOT; };
+		C924BDBD221123BB009599DF /* PDKBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDKBoard.h; path = Pod/Classes/PDKBoard.h; sourceTree = SOURCE_ROOT; };
 		C94666AC22111F97004E9A01 /* PinterestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PinterestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94666B022111F97004E9A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C94666B722111FB6004E9A01 /* PDKInterest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKInterest.m; sourceTree = "<group>"; };
-		C94666B822111FB6004E9A01 /* PDKUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKUser.h; sourceTree = "<group>"; };
-		C94666B922111FB7004E9A01 /* PDKModelObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKModelObject.h; sourceTree = "<group>"; };
-		C94666BA22111FB7004E9A01 /* PDKPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKPin.m; sourceTree = "<group>"; };
-		C94666BB22111FB7004E9A01 /* PDKImageInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKImageInfo.h; sourceTree = "<group>"; };
-		C94666BC22111FB7004E9A01 /* PDKModelObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKModelObject.m; sourceTree = "<group>"; };
-		C94666BD22111FB7004E9A01 /* PDKClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKClient.m; sourceTree = "<group>"; };
-		C94666BE22111FB7004E9A01 /* PDKResponseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKResponseObject.h; sourceTree = "<group>"; };
-		C94666BF22111FB7004E9A01 /* PDKBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKBoard.m; sourceTree = "<group>"; };
-		C94666C022111FB7004E9A01 /* PDKCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKCategories.h; sourceTree = "<group>"; };
-		C94666C122111FB7004E9A01 /* PDKImageInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKImageInfo.m; sourceTree = "<group>"; };
-		C94666C222111FB7004E9A01 /* PDKResponseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKResponseObject.m; sourceTree = "<group>"; };
-		C94666C322111FB7004E9A01 /* PDKInterest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKInterest.h; sourceTree = "<group>"; };
-		C94666C422111FB7004E9A01 /* PDKUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKUser.m; sourceTree = "<group>"; };
-		C94666C522111FB7004E9A01 /* PDKCategories.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKCategories.m; sourceTree = "<group>"; };
-		C94666C622111FB7004E9A01 /* PDKPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKPin.h; sourceTree = "<group>"; };
-		C94666C722111FB7004E9A01 /* PDKClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKClient.h; sourceTree = "<group>"; };
-		C94666C822111FB7004E9A01 /* PDKBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKBoard.h; sourceTree = "<group>"; };
-		C94666C922111FB7004E9A01 /* PinterestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinterestSDK.h; sourceTree = "<group>"; };
 		C94666DE22111FF0004E9A01 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = ../Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
 		C94666DF22111FF0004E9A01 /* SAMKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAMKeychain.framework; path = ../Carthage/Build/iOS/SAMKeychain.framework; sourceTree = "<group>"; };
 		C94666E222112033004E9A01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,26 +95,26 @@
 		C94666AE22111F97004E9A01 /* PinterestSDK */ = {
 			isa = PBXGroup;
 			children = (
-				C94666C822111FB7004E9A01 /* PDKBoard.h */,
-				C94666BF22111FB7004E9A01 /* PDKBoard.m */,
-				C94666C022111FB7004E9A01 /* PDKCategories.h */,
-				C94666C522111FB7004E9A01 /* PDKCategories.m */,
-				C94666C722111FB7004E9A01 /* PDKClient.h */,
-				C94666BD22111FB7004E9A01 /* PDKClient.m */,
-				C94666BB22111FB7004E9A01 /* PDKImageInfo.h */,
-				C94666C122111FB7004E9A01 /* PDKImageInfo.m */,
-				C94666C322111FB7004E9A01 /* PDKInterest.h */,
-				C94666B722111FB6004E9A01 /* PDKInterest.m */,
-				C94666B922111FB7004E9A01 /* PDKModelObject.h */,
-				C94666BC22111FB7004E9A01 /* PDKModelObject.m */,
-				C94666C622111FB7004E9A01 /* PDKPin.h */,
-				C94666BA22111FB7004E9A01 /* PDKPin.m */,
-				C94666BE22111FB7004E9A01 /* PDKResponseObject.h */,
-				C94666C222111FB7004E9A01 /* PDKResponseObject.m */,
-				C94666B822111FB6004E9A01 /* PDKUser.h */,
-				C94666C422111FB7004E9A01 /* PDKUser.m */,
-				C94666C922111FB7004E9A01 /* PinterestSDK.h */,
 				C94666B022111F97004E9A01 /* Info.plist */,
+				C924BDBD221123BB009599DF /* PDKBoard.h */,
+				C924BDB0221123BA009599DF /* PDKBoard.m */,
+				C924BDAF221123BA009599DF /* PDKCategories.h */,
+				C924BDAC221123BA009599DF /* PDKCategories.m */,
+				C924BDAE221123BA009599DF /* PDKClient.h */,
+				C924BDBC221123BB009599DF /* PDKClient.m */,
+				C924BDAB221123BA009599DF /* PDKImageInfo.h */,
+				C924BDB1221123BA009599DF /* PDKImageInfo.m */,
+				C924BDBB221123BB009599DF /* PDKInterest.h */,
+				C924BDB2221123BA009599DF /* PDKInterest.m */,
+				C924BDB5221123BA009599DF /* PDKModelObject.h */,
+				C924BDAD221123BA009599DF /* PDKModelObject.m */,
+				C924BDB6221123BA009599DF /* PDKPin.h */,
+				C924BDB3221123BA009599DF /* PDKPin.m */,
+				C924BDBA221123BB009599DF /* PDKResponseObject.h */,
+				C924BDB8221123BA009599DF /* PDKResponseObject.m */,
+				C924BDB9221123BB009599DF /* PDKUser.h */,
+				C924BDB4221123BA009599DF /* PDKUser.m */,
+				C924BDB7221123BA009599DF /* PinterestSDK.h */,
 			);
 			path = PinterestSDK;
 			sourceTree = "<group>";
@@ -137,16 +137,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C94666DC22111FB8004E9A01 /* PinterestSDK.h in Headers */,
-				C94666CB22111FB8004E9A01 /* PDKUser.h in Headers */,
-				C94666CC22111FB8004E9A01 /* PDKModelObject.h in Headers */,
-				C94666CE22111FB8004E9A01 /* PDKImageInfo.h in Headers */,
-				C94666D122111FB8004E9A01 /* PDKResponseObject.h in Headers */,
-				C94666D322111FB8004E9A01 /* PDKCategories.h in Headers */,
-				C94666D622111FB8004E9A01 /* PDKInterest.h in Headers */,
-				C94666D922111FB8004E9A01 /* PDKPin.h in Headers */,
-				C94666DA22111FB8004E9A01 /* PDKClient.h in Headers */,
-				C94666DB22111FB8004E9A01 /* PDKBoard.h in Headers */,
+				C924BDCA221123BB009599DF /* PinterestSDK.h in Headers */,
+				C924BDBE221123BB009599DF /* PDKImageInfo.h in Headers */,
+				C924BDC9221123BB009599DF /* PDKPin.h in Headers */,
+				C924BDC8221123BB009599DF /* PDKModelObject.h in Headers */,
+				C924BDC1221123BB009599DF /* PDKClient.h in Headers */,
+				C924BDD0221123BB009599DF /* PDKBoard.h in Headers */,
+				C924BDCC221123BB009599DF /* PDKUser.h in Headers */,
+				C924BDCD221123BB009599DF /* PDKResponseObject.h in Headers */,
+				C924BDCE221123BB009599DF /* PDKInterest.h in Headers */,
+				C924BDC2221123BB009599DF /* PDKCategories.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +217,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C94666CA22111FB8004E9A01 /* PDKInterest.m in Sources */,
-				C94666CD22111FB8004E9A01 /* PDKPin.m in Sources */,
-				C94666CF22111FB8004E9A01 /* PDKModelObject.m in Sources */,
-				C94666D022111FB8004E9A01 /* PDKClient.m in Sources */,
-				C94666D222111FB8004E9A01 /* PDKBoard.m in Sources */,
-				C94666D422111FB8004E9A01 /* PDKImageInfo.m in Sources */,
-				C94666D522111FB8004E9A01 /* PDKResponseObject.m in Sources */,
-				C94666D722111FB8004E9A01 /* PDKUser.m in Sources */,
-				C94666D822111FB8004E9A01 /* PDKCategories.m in Sources */,
+				C924BDC5221123BB009599DF /* PDKInterest.m in Sources */,
+				C924BDC7221123BB009599DF /* PDKUser.m in Sources */,
+				C924BDCF221123BB009599DF /* PDKClient.m in Sources */,
+				C924BDC0221123BB009599DF /* PDKModelObject.m in Sources */,
+				C924BDCB221123BB009599DF /* PDKResponseObject.m in Sources */,
+				C924BDBF221123BB009599DF /* PDKCategories.m in Sources */,
+				C924BDC6221123BB009599DF /* PDKPin.m in Sources */,
+				C924BDC3221123BB009599DF /* PDKBoard.m in Sources */,
+				C924BDC4221123BB009599DF /* PDKImageInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
