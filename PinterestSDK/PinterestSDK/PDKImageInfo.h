@@ -1,6 +1,7 @@
 //  Copyright (c) 2015 Pinterest. All rights reserved.
 //  Created by Ricky Cancro on 3/16/15.
 
+@import Foundation;
 @import CoreGraphics;
 
 /**
