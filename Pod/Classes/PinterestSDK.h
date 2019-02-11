@@ -11,5 +11,12 @@
 
 #import "PDKClient.h"
 #import "PDKResponseObject.h"
+#import "PDKUser.h"
+#import "PDKPin.h"
+#import "PDKCategories.h"
+#import "PDKBoard.h"
+#import "PDKInterest.h"
+#import "PDKModelObject.h"
+#import "PDKImageInfo.h"
 
 #endif
