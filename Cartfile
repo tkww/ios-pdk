@@ -1,2 +1,2 @@
-github "AFNetworking/AFNetworking"
+github "kinarob/AFNetworking" "72cefd47c6775bf5ca8cf620ca185bcacb6678eb"
 github "soffes/SAMKeychain"
