@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AFNetworking",
+        "repositoryURL": "https://github.com/tkww/AFNetworking",
+        "state": {
+          "branch": "feature/3-SPM",
+          "revision": "2e557abb383435fa8a1d6439d959e4e8de696f8a",
+          "version": null
+        }
+      },
+      {
+        "package": "SAMKeychain",
+        "repositoryURL": "https://github.com/tkww/SAMKeychain",
+        "state": {
+          "branch": "master",
+          "revision": "ab10b6cf4650d97c7b76823a31fed6ecfdd60844",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "PinterestSDK", targets: ["PinterestSDK"])
     ],
     dependencies: [
-        .package(url: "https://github.com/AFNetworking/AFNetworking", from: "3.0"),
+        .package(url: "https://github.com/tkww/AFNetworking", .branch("feature/3-SPM")),
         .package(url: "https://github.com/tkww/SAMKeychain", .branch("master")),
     ],
     targets: [
