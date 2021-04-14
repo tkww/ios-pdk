@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9F48EA6262758400002ACD9 /* SAMKeychain.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F48EA4262758400002ACD9 /* SAMKeychain.xcframework */; };
+		C9F48EA7262758400002ACD9 /* AFNetworking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F48EA5262758400002ACD9 /* AFNetworking.xcframework */; };
 		OBJ_103 /* PDKBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* PDKBoard.m */; };
 		OBJ_104 /* PDKCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* PDKCategories.m */; };
 		OBJ_105 /* PDKClient.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* PDKClient.m */; };
@@ -16,8 +18,6 @@
 		OBJ_109 /* PDKPin.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* PDKPin.m */; };
 		OBJ_110 /* PDKResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* PDKResponseObject.m */; };
 		OBJ_111 /* PDKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* PDKUser.m */; };
-		OBJ_113 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SAMKeychain::SAMKeychain::Product" /* SAMKeychain.framework */; };
-		OBJ_114 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "AFNetworking::AFNetworking::Product" /* AFNetworking.framework */; };
 		OBJ_123 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_128 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* SAMKeychain.m */; };
 		OBJ_129 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* SAMKeychainQuery.m */; };
@@ -66,6 +66,8 @@
 
 /* Begin PBXFileReference section */
 		"AFNetworking::AFNetworking::Product" /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F48EA4262758400002ACD9 /* SAMKeychain.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SAMKeychain.xcframework; path = Carthage/Build/SAMKeychain.xcframework; sourceTree = "<group>"; };
+		C9F48EA5262758400002ACD9 /* AFNetworking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AFNetworking.xcframework; path = Carthage/Build/AFNetworking.xcframework; sourceTree = "<group>"; };
 		OBJ_10 /* CHANGELOG */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
 		OBJ_11 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		OBJ_12 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -121,8 +123,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_113 /* SAMKeychain.framework in Frameworks */,
-				OBJ_114 /* AFNetworking.framework in Frameworks */,
+				C9F48EA6262758400002ACD9 /* SAMKeychain.xcframework in Frameworks */,
+				C9F48EA7262758400002ACD9 /* AFNetworking.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9F48EA3262758400002ACD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F48EA5262758400002ACD9 /* AFNetworking.xcframework */,
+				C9F48EA4262758400002ACD9 /* SAMKeychain.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		OBJ_20 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,7 +246,7 @@
 			path = .build/checkouts/AFNetworking/AFNetworking;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -247,8 +258,8 @@
 				OBJ_62 /* Example */,
 				OBJ_63 /* Carthage */,
 				OBJ_64 /* PinterestSDK */,
+				C9F48EA3262758400002ACD9 /* Frameworks */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_57 /* Products */ = {
@@ -427,7 +438,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_57 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -538,7 +549,10 @@
 				);
 				INFOPLIST_FILE = PinterestSDK.xcodeproj/PinterestSDK_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -571,7 +585,10 @@
 				);
 				INFOPLIST_FILE = PinterestSDK.xcodeproj/PinterestSDK_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -621,7 +638,10 @@
 				);
 				INFOPLIST_FILE = PinterestSDK.xcodeproj/SAMKeychain_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -653,7 +673,10 @@
 				);
 				INFOPLIST_FILE = PinterestSDK.xcodeproj/SAMKeychain_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -733,7 +756,8 @@
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
@@ -754,7 +778,10 @@
 				);
 				INFOPLIST_FILE = PinterestSDK.xcodeproj/AFNetworking_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -786,7 +813,10 @@
 				);
 				INFOPLIST_FILE = PinterestSDK.xcodeproj/AFNetworking_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
